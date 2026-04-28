@@ -1,0 +1,4002 @@
+[
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Doanh nghiệp bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên Mua có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Mua phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Khách hàng phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Người lao động có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Doanh nghiệp vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên Bán vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Bán phải đóng đầy đủ các khoản phí bảo trì trước ngày kết thúc hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Khách hàng có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Khách hàng tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên A vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nếu Bên Cho Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Lao động 2019, Bên Bán có trách nhiệm thanh toán số tiền 2.000 USD chậm nhất vào ngày 05 hàng tháng, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Công ty tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Cho Thuê vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Cho Thuê bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Doanh nghiệp vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên A vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Doanh nghiệp vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Cho Thuê tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng được quyền hưởng mức lợi nhuận chia sẻ cố định là 1% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Người lao động có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Cho Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Người lao động được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Doanh nghiệp đều bị nghiêm cấm theo Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Bên Mua có trách nhiệm thanh toán số tiền 500 USD chậm nhất vào 31/12/2026, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Bên Thuê có trách nhiệm thanh toán số tiền 500 USD chậm nhất vào 31/12/2026, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Người lao động bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Lao động 2019, Khách hàng có trách nhiệm thanh toán số tiền 15.000.000 VNĐ chậm nhất vào ngày 15 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Công ty có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào ngày 15 hàng tháng, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Cho Thuê phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Bên Cho Thuê có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào trước thời điểm bàn giao, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Bán phải đóng đầy đủ các khoản phí bảo trì trước 30/11/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Bán vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên B phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Bán có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước ngày kết thúc hợp đồng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày kết thúc hợp đồng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên B vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Mua vi phạm nghĩa vụ thanh toán khoản tiền 50.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Doanh nghiệp đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 05 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên B vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nếu Doanh nghiệp vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Người lao động có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Bán phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên B phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Doanh nghiệp đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên B bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Khách hàng bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Người lao động được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Công ty phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào trước thời điểm bàn giao.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Mua vi phạm nghĩa vụ thanh toán khoản tiền 500 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Doanh nghiệp có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào ngày 15 hàng tháng, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước 30/11/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên B phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Doanh nghiệp tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Người lao động có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Doanh nghiệp có trách nhiệm thanh toán số tiền 2.000 USD chậm nhất vào trước thời điểm bàn giao, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên B không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Thuê phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Cho Thuê đều bị nghiêm cấm theo Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Công ty tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Khách hàng bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên Bán có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Người lao động vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên A đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Công ty đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Thuê phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Khách hàng bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên B bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên B không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Người lao động phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Người lao động phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua có nghĩa vụ hoàn thành các hạng mục được giao trước 30/11/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Công ty có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 15 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Công ty phải đóng đầy đủ các khoản phí bảo trì trước ngày 15 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Mua đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Bán bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Bán có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Người lao động phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Thuê đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Thuê phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên A bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán có nghĩa vụ hoàn thành các hạng mục được giao trước trước thời điểm bàn giao theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Doanh nghiệp phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên A vi phạm nghĩa vụ thanh toán khoản tiền 2.000 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Công ty đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Công ty đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên A có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Người lao động phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Bộ luật Lao động 2019, Khách hàng có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Bán phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Bán đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên B tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Khách hàng có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Bán phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Cho Thuê đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Doanh nghiệp đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên B tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Doanh nghiệp có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Doanh nghiệp phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên Mua có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Bán bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên B tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Cho Thuê tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước ngày kết thúc hợp đồng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Doanh nghiệp vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên Cho Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Bên Cho Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng có nghĩa vụ hoàn thành các hạng mục được giao trước 31/12/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên Cho Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Cho Thuê tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên Cho Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Công ty có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào ngày 05 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Khách hàng đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày kết thúc hợp đồng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Bên B có trách nhiệm thanh toán số tiền 15.000.000 VNĐ chậm nhất vào ngày 15 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên Mua vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Bán có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Mua phải đóng đầy đủ các khoản phí bảo trì trước ngày 15 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên B tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Doanh nghiệp bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Mua bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Thuê tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên A phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Cho Thuê phải đóng đầy đủ các khoản phí bảo trì trước ngày kết thúc hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Bên A tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Thuê vi phạm nghĩa vụ thanh toán khoản tiền 2.000 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nếu Người lao động vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Khách hàng đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Công ty phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Công ty có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào 30/11/2026, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Người lao động phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Bên Mua có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào trước thời điểm bàn giao, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Công ty có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Người lao động tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Khách hàng phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Doanh nghiệp phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên A phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên A bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Bên Bán có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào 30/11/2026, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Bán tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê không được sử dụng hệ thống vào các mục đích trái với Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Mua phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Mua không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Doanh nghiệp đều bị nghiêm cấm theo Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên B bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Công ty có trách nhiệm thanh toán số tiền 500 USD chậm nhất vào 31/12/2026, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Doanh nghiệp được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước 31/12/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Người lao động phải đóng đầy đủ các khoản phí bảo trì trước 30/11/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào trước thời điểm bàn giao.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Người lao động vi phạm nghĩa vụ thanh toán khoản tiền 500 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Bán phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Người lao động vi phạm nghĩa vụ thanh toán khoản tiền 500 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Bên Bán tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 31/12/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Công ty vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Thuê bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Khách hàng tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Mua bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên B không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Mua phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A có nghĩa vụ hoàn thành các hạng mục được giao trước 30/11/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Công ty có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào 31/12/2026, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên B vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Khách hàng phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Công ty phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Thuê không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Khách hàng tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Mua có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Mua có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 1% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Bán phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Bộ luật Lao động 2019, Công ty có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Người lao động vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào trước thời điểm bàn giao.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Thuê phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Cho Thuê vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Thuê tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Doanh nghiệp có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Thuê bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Bán phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Công ty có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Bán có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Doanh nghiệp tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Lao động 2019, Bên Thuê có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào ngày kết thúc hợp đồng, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Bán bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên B tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Doanh nghiệp có trách nhiệm thanh toán số tiền 15.000.000 VNĐ chậm nhất vào ngày kết thúc hợp đồng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Bán có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Khách hàng có trách nhiệm thanh toán số tiền 15.000.000 VNĐ chậm nhất vào ngày 05 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Bộ luật Lao động 2019, Khách hàng có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Bán đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên A phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Người lao động vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên B vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Mua phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên Cho Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Mua đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên A bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên A tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Khách hàng có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào 30/11/2026, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Cho Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên B có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Khách hàng vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Mua vi phạm nghĩa vụ thanh toán khoản tiền 500 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Bên Cho Thuê có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào trước thời điểm bàn giao, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán được quyền hưởng mức lợi nhuận chia sẻ cố định là 1% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Công ty vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước ngày kết thúc hợp đồng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên A có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Khách hàng phải đóng đầy đủ các khoản phí bảo trì trước ngày 15 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Bên B tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày kết thúc hợp đồng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Doanh nghiệp có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào ngày kết thúc hợp đồng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Bên Cho Thuê tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên B có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên B bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Khách hàng vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên A tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Cho Thuê vi phạm nghĩa vụ thanh toán khoản tiền 100.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê không được sử dụng hệ thống vào các mục đích trái với Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên A vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Công ty có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Công ty vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Lao động 2019, Bên Mua có trách nhiệm thanh toán số tiền 500 USD chậm nhất vào 31/12/2026, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Người lao động có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Người lao động đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Cho Thuê bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Thuê đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Bán vi phạm nghĩa vụ thanh toán khoản tiền 500 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Khách hàng có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng có nghĩa vụ hoàn thành các hạng mục được giao trước ngày kết thúc hợp đồng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên B có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Bên Bán tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Lao động 2019, Bên Bán có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào ngày 05 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Doanh nghiệp tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên B không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Người lao động vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Người lao động có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Người lao động phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Cho Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước 30/11/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Mua phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Doanh nghiệp đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên A bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp không được sử dụng hệ thống vào các mục đích trái với Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Người lao động không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Doanh nghiệp bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên B phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động được quyền hưởng mức lợi nhuận chia sẻ cố định là 1% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Doanh nghiệp phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Cho Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên B phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A có nghĩa vụ hoàn thành các hạng mục được giao trước 30/11/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Bộ luật Lao động 2019, Bên Bán có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Bộ luật Lao động 2019, Bên Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào trước thời điểm bàn giao.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A có nghĩa vụ hoàn thành các hạng mục được giao trước 31/12/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Khách hàng phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Thuê tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Bộ luật Lao động 2019, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Doanh nghiệp bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên A đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên B có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Thuê vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Khách hàng bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Bán phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Công ty đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước 31/12/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Doanh nghiệp vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Người lao động phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 05 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên B phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Khách hàng bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Khách hàng bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Cho Thuê bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Người lao động được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Bán vi phạm nghĩa vụ thanh toán khoản tiền 50.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Bên Bán tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Bên Mua có trách nhiệm thanh toán số tiền 2.000 USD chậm nhất vào 31/12/2026, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A có nghĩa vụ hoàn thành các hạng mục được giao trước ngày kết thúc hợp đồng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Công ty không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Công ty phải đóng đầy đủ các khoản phí bảo trì trước 30/11/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Thuê phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Mua có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Doanh nghiệp bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Công ty phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Doanh nghiệp vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày kết thúc hợp đồng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Công ty tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động có nghĩa vụ hoàn thành các hạng mục được giao trước 31/12/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Bên A có trách nhiệm thanh toán số tiền 500 USD chậm nhất vào ngày 15 hàng tháng, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Khách hàng phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước ngày kết thúc hợp đồng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Người lao động có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Bên Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên A đều bị nghiêm cấm theo Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Bán vi phạm nghĩa vụ thanh toán khoản tiền 100.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Công ty có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên A đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Cho Thuê vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Mua phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Người lao động bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Bán bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Doanh nghiệp có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào 30/11/2026, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Doanh nghiệp có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên B phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Doanh nghiệp có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 05 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên Bán có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Bên Bán có trách nhiệm thanh toán số tiền 15.000.000 VNĐ chậm nhất vào ngày 05 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Công ty có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào trước thời điểm bàn giao, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Bên Cho Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Doanh nghiệp có trách nhiệm thanh toán số tiền 500 USD chậm nhất vào ngày 05 hàng tháng, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Khách hàng đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên A đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Người lao động vi phạm nghĩa vụ thanh toán khoản tiền 50.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Khách hàng vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Công ty phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Mua phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Cho Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 05 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên A phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 31/12/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Người lao động phải đóng đầy đủ các khoản phí bảo trì trước ngày kết thúc hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Người lao động đều bị nghiêm cấm theo Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên Bán có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 31/12/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Mua được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng có nghĩa vụ hoàn thành các hạng mục được giao trước ngày kết thúc hợp đồng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Bán vi phạm nghĩa vụ thanh toán khoản tiền 50.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Người lao động cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Người lao động vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Doanh nghiệp phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Mua không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên A tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Mua bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nếu Bên Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên A tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Khách hàng phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Cho Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Cho Thuê phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên A tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Bán vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Doanh nghiệp vi phạm nghĩa vụ thanh toán khoản tiền 100.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên B đều bị nghiêm cấm theo Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Khách hàng vi phạm nghĩa vụ thanh toán khoản tiền 15.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên B vi phạm nghĩa vụ thanh toán khoản tiền 2.000 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Lao động 2019, Bên B có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào 31/12/2026, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Công ty vi phạm nghĩa vụ thanh toán khoản tiền 50.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Mua có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên B có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên A tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Bên B có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào 31/12/2026, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Mua không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên B phải đóng đầy đủ các khoản phí bảo trì trước ngày 15 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Công ty đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên Bán vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Bên Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Khách hàng có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Cho Thuê đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Bên B có trách nhiệm thanh toán số tiền 15.000.000 VNĐ chậm nhất vào ngày 05 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Thuê tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Doanh nghiệp tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên A bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên A tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên B không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Người lao động có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Thuê phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Công ty tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 31/12/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Doanh nghiệp có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Khách hàng có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Công ty bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Mua phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Doanh nghiệp được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Thuê phải đóng đầy đủ các khoản phí bảo trì trước ngày 05 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Doanh nghiệp vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Khách hàng có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 31/12/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên Mua có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Bên Cho Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Bên Mua có trách nhiệm thanh toán số tiền 15.000.000 VNĐ chậm nhất vào 30/11/2026, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Bộ luật Lao động 2019, Doanh nghiệp có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Khách hàng phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Bán bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày kết thúc hợp đồng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Bán phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nếu Công ty vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên A phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Bên Thuê có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào 30/11/2026, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Doanh nghiệp bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên A phải đóng đầy đủ các khoản phí bảo trì trước ngày 15 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên A phải đóng đầy đủ các khoản phí bảo trì trước ngày 15 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Khách hàng có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 05 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên A vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Thuê phải đóng đầy đủ các khoản phí bảo trì trước 30/11/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên B có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước trước thời điểm bàn giao theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Bán có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên B phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Doanh nghiệp phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Doanh nghiệp không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Công ty bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Doanh nghiệp bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Doanh nghiệp phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động không được sử dụng hệ thống vào các mục đích trái với Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Khách hàng bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Khách hàng có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Khách hàng phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Doanh nghiệp phải đóng đầy đủ các khoản phí bảo trì trước 30/11/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Công ty đều bị nghiêm cấm theo Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Doanh nghiệp phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Lao động 2019, Bên Thuê có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào ngày 15 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Mua vi phạm nghĩa vụ thanh toán khoản tiền 500 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Mua tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Bán phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Doanh nghiệp tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Người lao động bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên Cho Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 15 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Thuê phải đóng đầy đủ các khoản phí bảo trì trước ngày kết thúc hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên B vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 05 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Doanh nghiệp phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên B tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Thuê phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước trước thời điểm bàn giao theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A được quyền hưởng mức lợi nhuận chia sẻ cố định là 1% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên B vi phạm nghĩa vụ thanh toán khoản tiền 100.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Mua có nghĩa vụ hoàn thành các hạng mục được giao trước 31/12/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Công ty tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Người lao động vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Cho Thuê tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A có nghĩa vụ hoàn thành các hạng mục được giao trước trước thời điểm bàn giao theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 10% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Bên Thuê có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào trước thời điểm bàn giao, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Khách hàng bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Công ty phải đóng đầy đủ các khoản phí bảo trì trước ngày kết thúc hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên A bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Công ty bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước 30/11/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nếu Bên A vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Công ty có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào 30/11/2026, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Doanh nghiệp có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên Mua có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 31/12/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nếu Bên Cho Thuê vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Thuê đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Khách hàng có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Công ty phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào 30/11/2026.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Khách hàng đều bị nghiêm cấm theo Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Bán đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Người lao động có trách nhiệm thanh toán số tiền 100.000.000 VNĐ chậm nhất vào ngày 15 hàng tháng, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Người lao động có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Người lao động có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Doanh nghiệp phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Người lao động có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào 30/11/2026, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Người lao động vi phạm nghĩa vụ thanh toán khoản tiền 2.000 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 15 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Căn cứ theo Luật Thương mại số 36/2005/QH11, Khách hàng có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào ngày 05 hàng tháng, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Cho Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 1% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 1% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Người lao động vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào trước thời điểm bàn giao.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Bán đều bị nghiêm cấm theo Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày kết thúc hợp đồng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Bộ luật Dân sự 2015, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên A đều bị nghiêm cấm theo Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Mua có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Bên B tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Khách hàng vi phạm nghĩa vụ thanh toán khoản tiền 500 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Cho Thuê vi phạm nghĩa vụ thanh toán khoản tiền 50.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên B vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày kết thúc hợp đồng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước trước thời điểm bàn giao theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Mua đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Cho Thuê có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Nghiêm cấm Công ty tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Doanh nghiệp vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào trước thời điểm bàn giao.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Doanh nghiệp có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, nếu không có thỏa thuận khác.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước ngày 15 hàng tháng theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A được quyền hưởng mức lợi nhuận chia sẻ cố định là 10% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Bên A có trách nhiệm thanh toán số tiền 15.000.000 VNĐ chậm nhất vào ngày 05 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Doanh nghiệp cam kết bồi thường toàn bộ thiệt hại phát sinh, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Cho Thuê cam kết bồi thường toàn bộ thiệt hại phát sinh, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Nghiêm cấm Bên B tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên B phải đóng đầy đủ các khoản phí bảo trì trước 31/12/2026.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Người lao động phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Bán phải đóng đầy đủ các khoản phí bảo trì trước ngày kết thúc hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Theo Luật Sở hữu trí tuệ, Bên Mua có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Luật Sở hữu trí tuệ, Doanh nghiệp có trách nhiệm thanh toán số tiền 10.000.000 VNĐ chậm nhất vào ngày 05 hàng tháng, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên B có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Công ty phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Thuê phải đóng đầy đủ các khoản phí bảo trì trước ngày kết thúc hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên B đều bị nghiêm cấm theo Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Người lao động tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Doanh nghiệp không được sử dụng hệ thống vào các mục đích trái với Luật Sở hữu trí tuệ.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Mua phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Mua tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Khách hàng vi phạm nghĩa vụ thanh toán khoản tiền 500 USD quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Nghiêm cấm Công ty tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Bên Bán tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Người lao động có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Người lao động có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán được quyền hưởng mức lợi nhuận chia sẻ cố định là 5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua có nghĩa vụ hoàn thành các hạng mục được giao trước 31/12/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên B có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 15 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Khách hàng được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Công ty vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Người lao động có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Bán có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Người lao động phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Công ty phải chịu mức phạt 2% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Người lao động không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên A phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên A phải chịu mức phạt 5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên A không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Bán không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Công ty vi phạm nghĩa vụ thanh toán khoản tiền 50.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Người lao động được phép đơn phương tạm hoãn thực hiện nghĩa vụ, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Thuê vi phạm nghĩa vụ thanh toán khoản tiền 50.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Khách hàng đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên A có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Công ty bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên B được phép đơn phương tạm hoãn thực hiện nghĩa vụ, theo quy định của pháp luật.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên B có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước ngày 15 hàng tháng.",
+        "intent": "Right"
+    },
+    {
+        "text": "Hợp đồng này sẽ đương nhiên chấm dứt nếu Bên Bán vi phạm nghĩa vụ thanh toán khoản tiền 10.000.000 VNĐ quá 30 ngày.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Khách hàng đều bị nghiêm cấm theo Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên B bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Công ty được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Doanh nghiệp đều bị nghiêm cấm theo Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Khách hàng có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Cho Thuê phải chịu mức phạt 1.5% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Bên Mua có trách nhiệm thanh toán số tiền 2.000 USD chậm nhất vào ngày 05 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Luật An ninh mạng, Doanh nghiệp có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào trước thời điểm bàn giao, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 05 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên Bán có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 31/12/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Người lao động không được sử dụng hệ thống vào các mục đích trái với Luật Thương mại số 36/2005/QH11.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng không được sử dụng hệ thống vào các mục đích trái với Bộ luật Dân sự 2015.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Mua không được quyền chuyển giao nghĩa vụ của hợp đồng này cho pháp nhân khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Cho Thuê bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước trước thời điểm bàn giao.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên B được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Bán tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, nếu không có thỏa thuận khác.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nghiêm cấm Khách hàng tiết lộ bí mật kinh doanh cho bên thứ ba dưới mọi hình thức.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Công ty được quyền hưởng mức lợi nhuận chia sẻ cố định là 2% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Cho Thuê không được sử dụng hệ thống vào các mục đích trái với Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Doanh nghiệp có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Doanh nghiệp tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, theo quy định của pháp luật.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp bàn giao trễ hạn, Bên Mua phải chịu mức phạt 1% giá trị hợp đồng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Bên Thuê có trách nhiệm thanh toán số tiền 2.000 USD chậm nhất vào ngày 05 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Bên Thuê có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp không được sử dụng hệ thống vào các mục đích trái với Luật An ninh mạng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày 15 hàng tháng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào trước thời điểm bàn giao.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Thuê bảo lưu quyền từ chối cung cấp dịch vụ nếu đối tác vi phạm thỏa thuận.",
+        "intent": "Right"
+    },
+    {
+        "text": "Khách hàng có quyền đơn phương hủy bỏ hợp đồng ngay lập tức nếu phát hiện hành vi gian lận.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên A tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Nếu Bên Bán vi phạm nghiêm trọng các quy định, hợp đồng sẽ bị đình chỉ vô điều kiện.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Doanh nghiệp tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, trừ khi có văn bản đồng ý.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Theo Luật Thương mại số 36/2005/QH11, Bên A có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào ngày kết thúc hợp đồng.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Bên Mua phải đóng đầy đủ các khoản phí bảo trì trước trước thời điểm bàn giao.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Bên Thuê có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Thỏa thuận sẽ tự động mất hiệu lực pháp lý khi Bên Mua bị tuyên bố phá sản.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Theo quy định hiện hành, Công ty phải đóng đầy đủ các khoản phí bảo trì trước ngày 15 hàng tháng.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Công ty tuyệt đối không được phép tự ý thay đổi kết cấu tài sản, ngoại trừ trường hợp bất khả kháng.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Ngoại trừ việc ký kết phụ lục gia hạn, hợp đồng sẽ hết hiệu lực vào trước thời điểm bàn giao.",
+        "intent": "Termination Condition"
+    },
+    {
+        "text": "Bên Cho Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, trừ khi có văn bản đồng ý.",
+        "intent": "Right"
+    },
+    {
+        "text": "Căn cứ theo Bộ luật Dân sự 2015, Bên Bán có trách nhiệm thanh toán số tiền 50.000.000 VNĐ chậm nhất vào ngày 15 hàng tháng, theo quy định của pháp luật.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Bên Cho Thuê được quyền hưởng mức lợi nhuận chia sẻ cố định là 1.5% trên tổng doanh thu.",
+        "intent": "Right"
+    },
+    {
+        "text": "Theo Luật An ninh mạng, Bên Thuê có toàn quyền kiểm tra, thẩm định chất lượng lô hàng trước 30/11/2026.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Mua cam kết bồi thường toàn bộ thiệt hại phát sinh, trừ khi có văn bản đồng ý.",
+        "intent": "Obligation"
+    },
+    {
+        "text": "Mọi hành vi sao chép trái phép của Bên Thuê đều bị nghiêm cấm theo Bộ luật Lao động 2019.",
+        "intent": "Prohibition"
+    },
+    {
+        "text": "Trong trường hợp xảy ra sự cố kỹ thuật, Người lao động có quyền yêu cầu khắc phục lỗi trong vòng 48 giờ.",
+        "intent": "Right"
+    },
+    {
+        "text": "Bên Thuê được phép đơn phương tạm hoãn thực hiện nghĩa vụ, nếu không có thỏa thuận khác.",
+        "intent": "Right"
+    },
+    {
+        "text": "Công ty có nghĩa vụ hoàn thành các hạng mục được giao trước 30/11/2026 theo đúng tiến độ.",
+        "intent": "Obligation"
+    }
+]
