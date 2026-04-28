@@ -1,1 +1,460 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LexRAG — Advanced Legal Intelligence</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
+  <style>
+    /* CSS Variables - Modern Dark LegalTech Theme */
+    :root {
+      --bg: #0B1120;
+      --surface-1: rgba(30, 41, 59, 0.7);
+      --surface-2: rgba(51, 65, 85, 0.5);
+      --border: rgba(148, 163, 184, 0.15);
+      --border-focus: rgba(56, 189, 248, 0.5);
+      
+      --accent: #38BDF8; /* Cyan */
+      --accent-glow: rgba(56, 189, 248, 0.2);
+      --gold: #FBBF24;
+      --danger: #F87171;
+      --success: #34D399;
+      --intent-bg: #4C1D95;
+      
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      
+      --font-sans: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --font-serif: 'Merriweather', serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text-main); font-family: var(--font-sans); height: 100vh; display: flex; overflow: hidden; }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--surface-2); border-radius: 10px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+    /* --- SIDEBAR (GLASSMORPHISM) --- */
+    .sidebar { width: 320px; background: var(--surface-1); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-right: 1px solid var(--border); display: flex; flex-direction: column; z-index: 10; }
+    .brand { padding: 24px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; }
+    .brand-icon { width: 40px; height: 40px; background: linear-gradient(135deg, var(--accent), #2563EB); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; box-shadow: 0 4px 15px var(--accent-glow); }
+    .brand-text h1 { font-size: 18px; font-weight: 600; letter-spacing: -0.5px; }
+    .brand-text p { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); }
+
+    .status-panel { margin: 16px; padding: 12px; background: rgba(0,0,0,0.2); border-radius: 10px; border: 1px solid var(--border); font-size: 12px; font-family: var(--font-mono); }
+    .status-item { display: flex; justify-content: space-between; margin-bottom: 8px; }
+    .status-item:last-child { margin-bottom: 0; }
+    .status-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; background: var(--danger); box-shadow: 0 0 8px var(--danger); }
+    .status-dot.online { background: var(--success); box-shadow: 0 0 8px var(--success); }
+
+    .upload-zone { margin: 0 16px; padding: 20px; border: 1.5px dashed var(--text-muted); border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.3s; background: rgba(255,255,255,0.02); }
+    .upload-zone:hover { border-color: var(--accent); background: var(--accent-glow); transform: translateY(-2px); }
+    .upload-zone i { font-size: 24px; margin-bottom: 8px; opacity: 0.8; }
+    .upload-zone p { font-size: 12px; font-weight: 500; }
+    .upload-zone span { font-size: 10px; color: var(--text-muted); }
+    #file-input { display: none; }
+
+    .stats-container { margin-top: auto; padding: 20px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; text-align: center; }
+    .stat-box h3 { font-family: var(--font-mono); font-size: 16px; font-weight: 400; color: var(--accent); }
+    .stat-box p { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+    /* --- MAIN CHAT AREA --- */
+    .main-area { flex: 1; display: flex; flex-direction: column; position: relative; background: radial-gradient(circle at top right, rgba(56,189,248,0.05), transparent 40%); }
+    
+    .toolbar { padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); backdrop-filter: blur(10px); }
+    .k-selector { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
+    .k-selector select { background: var(--surface-2); color: white; border: 1px solid var(--border); padding: 4px 8px; border-radius: 6px; outline: none; font-family: var(--font-mono); cursor: pointer; }
+    .clear-btn { background: transparent; border: 1px solid var(--border); color: var(--text-muted); padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; transition: 0.2s; }
+    .clear-btn:hover { background: rgba(248,113,113,0.1); color: var(--danger); border-color: var(--danger); }
+
+    .chat-history { flex: 1; overflow-y: auto; padding: 30px; display: flex; flex-direction: column; gap: 24px; scroll-behavior: smooth; }
+    
+    /* Welcome Screen */
+    .welcome { margin: auto; text-align: center; max-width: 500px; animation: fadeIn 0.5s ease; }
+    .welcome h2 { font-size: 24px; margin-bottom: 12px; font-weight: 500; }
+    .welcome p { color: var(--text-muted); font-size: 14px; line-height: 1.6; margin-bottom: 24px; }
+    .suggest-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .suggest-btn { background: var(--surface-1); border: 1px solid var(--border); color: var(--text-main); padding: 12px; border-radius: 10px; font-size: 12px; text-align: left; cursor: pointer; transition: 0.2s; }
+    .suggest-btn:hover { border-color: var(--accent); background: var(--accent-glow); transform: translateY(-2px); }
+
+    /* Chat Bubbles */
+    .msg-wrapper { display: flex; gap: 16px; max-width: 85%; animation: slideUp 0.3s ease; position: relative; }
+    .msg-wrapper.user { align-self: flex-end; flex-direction: row-reverse; }
+    
+    .avatar { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; }
+    .user .avatar { background: var(--surface-2); }
+    .bot .avatar { background: linear-gradient(135deg, var(--gold), #D97706); box-shadow: 0 0 10px rgba(245,158,11,0.2); }
+    
+    .bubble { padding: 16px; border-radius: 12px; font-size: 14px; line-height: 1.7; position: relative; }
+    .user .bubble { background: var(--surface-2); border: 1px solid var(--border); border-top-right-radius: 4px; }
+    .bot .bubble { background: transparent; border: none; padding: 0 16px 0 0; }
+    
+    /* Markdown Styles in Bot Bubble */
+    .bot .bubble p { margin-bottom: 12px; }
+    .bot .bubble strong { color: var(--accent); font-weight: 600; }
+    .bot .bubble ul, .bot .bubble ol { margin-left: 20px; margin-bottom: 12px; }
+    .bot .bubble li { margin-bottom: 4px; }
+    
+    .copy-btn { position: absolute; top: 0; right: -40px; background: var(--surface-2); border: 1px solid var(--border); color: var(--text-muted); width: 30px; height: 30px; border-radius: 6px; cursor: pointer; display: none; align-items: center; justify-content: center; transition: 0.2s; }
+    .bot:hover .copy-btn { display: flex; }
+    .copy-btn:hover { color: white; background: var(--accent); border-color: var(--accent); }
+
+    /* Pipeline Steps */
+    .pipeline { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .pipe-badge { font-family: var(--font-mono); font-size: 10px; padding: 4px 8px; background: rgba(56,189,248,0.1); border: 1px solid var(--accent); color: var(--accent); border-radius: 6px; }
+
+    /* Source Cards (Legal Style) */
+    .sources-container { margin-top: 16px; border-top: 1px dashed var(--border); padding-top: 16px; }
+    .source-card { background: var(--surface-1); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; margin-bottom: 10px; overflow: hidden; }
+    .source-header { padding: 10px 14px; background: rgba(0,0,0,0.2); font-size: 11px; font-family: var(--font-mono); color: var(--text-muted); display: flex; justify-content: space-between; }
+    .source-content { padding: 14px; font-family: var(--font-serif); font-size: 13px; line-height: 1.6; color: #E2E8F0; }
+    
+    /* NER & Intent Tags */
+    .tags-area { padding: 10px 14px; background: rgba(0,0,0,0.3); display: flex; flex-wrap: wrap; gap: 6px; border-top: 1px solid var(--border); }
+    .tag-intent { font-size: 10px; font-weight: 600; padding: 3px 8px; background: var(--intent-bg); border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .tag-ner { font-size: 10px; font-family: var(--font-mono); padding: 3px 6px; border: 1px solid var(--border-focus); border-radius: 4px; color: var(--accent); }
+
+    /* Thinking Animation */
+    .thinking { display: flex; gap: 4px; align-items: center; padding: 8px 0; }
+    .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: pulse 1.5s infinite ease-in-out; }
+    .dot:nth-child(2) { animation-delay: 0.2s; }
+    .dot:nth-child(3) { animation-delay: 0.4s; }
+    .think-text { font-size: 12px; font-style: italic; color: var(--text-muted); margin-left: 8px; font-family: var(--font-mono); }
+
+    /* Input Area */
+    .input-container { padding: 24px 30px; background: linear-gradient(to top, var(--bg) 50%, transparent); }
+    .input-box { background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px; padding: 12px 16px; display: flex; gap: 12px; align-items: flex-end; box-shadow: 0 10px 30px rgba(0,0,0,0.3); transition: border 0.3s; }
+    .input-box:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+    .input-box textarea { flex: 1; background: transparent; border: none; color: white; font-family: var(--font-sans); font-size: 14px; line-height: 1.5; resize: none; max-height: 150px; outline: none; padding: 4px 0; }
+    .input-box textarea::placeholder { color: var(--text-muted); }
+    .send-btn { background: var(--accent); color: #000; border: none; width: 36px; height: 36px; border-radius: 10px; font-size: 16px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; font-weight: bold; }
+    .send-btn:hover { background: white; transform: scale(1.05); }
+    .send-btn:disabled { background: var(--surface-2); color: var(--text-muted); cursor: not-allowed; transform: none; }
+
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes pulse { 0%, 100% { transform: scale(0.8); opacity: 0.5; } 50% { transform: scale(1.2); opacity: 1; } }
+  </style>
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-icon">⚖️</div>
+      <div class="brand-text">
+        <h1>LexRAG</h1>
+        <p>HCMUT Contract AI</p>
+      </div>
+    </div>
+
+    <div class="status-panel">
+      <div class="status-item">
+        <span>Backend API</span>
+        <span><i class="status-dot" id="api-dot"></i><span id="api-status">Đang kết nối...</span></span>
+      </div>
+      <div class="status-item">
+        <span>Ollama LLM</span>
+        <span><i class="status-dot" id="llm-dot"></i><span id="llm-status">Pending</span></span>
+      </div>
+    </div>
+
+    <label class="upload-zone" id="drop-zone">
+      <i>📄</i>
+      <p>Nạp tri thức pháp lý</p>
+      <span>Kéo thả file combined_results.json<br>hoặc clauses.txt vào đây</span>
+      <input type="file" id="file-input" accept=".txt,.json">
+    </label>
+
+    <div class="stats-container">
+      <div class="stat-box">
+        <h3 id="stat-docs">0</h3>
+        <p>Tài liệu</p>
+      </div>
+      <div class="stat-box">
+        <h3 id="stat-vectors">0</h3>
+        <p>Vectors</p>
+      </div>
+      <div class="stat-box">
+        <h3 id="stat-queries">0</h3>
+        <p>Truy vấn</p>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main-area">
+    <div class="toolbar">
+      <div class="k-selector">
+        <span>Truy xuất (Top-K):</span>
+        <select id="k-select">
+          <option value="2">2 Mệnh đề</option>
+          <option value="3" selected>3 Mệnh đề</option>
+          <option value="5">5 Mệnh đề</option>
+        </select>
+      </div>
+      <button class="clear-btn" onclick="clearChat()">🗑 Xóa Chat</button>
+    </div>
+
+    <div class="chat-history" id="chat-box">
+      <div class="welcome" id="welcome-screen">
+        <h2>Xin chào, tôi là trợ lý pháp lý ảo.</h2>
+        <p>Hệ thống được thiết kế bằng kiến trúc <b>RAG</b> tiên tiến.<br>Vui lòng nạp dữ liệu hợp đồng để bắt đầu phân tích.</p>
+        <div class="suggest-grid">
+          <button class="suggest-btn" onclick="useSuggest(this)">Điều kiện chấm dứt hợp đồng là gì?</button>
+          <button class="suggest-btn" onclick="useSuggest(this)">Bên A có các quyền và nghĩa vụ nào?</button>
+          <button class="suggest-btn" onclick="useSuggest(this)">Mức phạt khi trễ hạn thanh toán?</button>
+          <button class="suggest-btn" onclick="useSuggest(this)">Trường hợp bất khả kháng xử lý ra sao?</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-container">
+      <div class="input-box">
+        <textarea id="user-input" rows="1" placeholder="Hỏi về các điều khoản trong hợp đồng..." oninput="autoResize(this)" onkeydown="handleEnter(event)"></textarea>
+        <button class="send-btn" id="send-btn" onclick="sendQuery()">↑</button>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const API = "http://localhost:8000";
+    let queryCount = 0;
+    
+    // Khởi tạo thư viện Markdown
+    marked.setOptions({ breaks: true, gfm: true });
+
+    // Tự động co giãn ô nhập text
+    function autoResize(textarea) {
+      textarea.style.height = 'auto';
+      textarea.style.height = (textarea.scrollHeight < 150 ? textarea.scrollHeight : 150) + 'px';
+    }
+
+    function handleEnter(e) {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendQuery();
+      }
+    }
+
+    function useSuggest(btn) {
+      document.getElementById('user-input').value = btn.innerText;
+      sendQuery();
+    }
+
+    // Ping Server
+    async function checkHealth() {
+      try {
+        const res = await fetch(`${API}/health`);
+        const data = await res.json();
+        
+        document.getElementById('api-dot').className = 'status-dot online';
+        document.getElementById('api-status').innerText = 'Online';
+        
+        if (data.ollama_running) {
+          document.getElementById('llm-dot').className = 'status-dot online';
+          document.getElementById('llm-status').innerText = data.llm || 'Ready';
+        } else {
+          document.getElementById('llm-dot').className = 'status-dot';
+          document.getElementById('llm-status').innerText = 'Offline';
+        }
+
+        document.getElementById('stat-docs').innerText = data.total_docs || 0;
+        document.getElementById('stat-vectors').innerText = data.total_clauses || data.vectors_loaded || 0;
+      } catch (e) {
+        document.getElementById('api-dot').className = 'status-dot';
+        document.getElementById('api-status').innerText = 'Error';
+      }
+    }
+
+    setInterval(checkHealth, 5000);
+    checkHealth();
+
+    // Upload File (Kéo thả & Click)
+    const dropZone = document.getElementById('drop-zone');
+    const fileInput = document.getElementById('file-input');
+
+    dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.style.borderColor = "var(--accent)"; });
+    dropZone.addEventListener('dragleave', () => { dropZone.style.borderColor = "var(--text-muted)"; });
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.style.borderColor = "var(--text-muted)";
+      if (e.dataTransfer.files.length) uploadFile(e.dataTransfer.files[0]);
+    });
+    fileInput.addEventListener('change', (e) => {
+      if (e.target.files.length) uploadFile(e.target.files[0]);
+    });
+
+    async function uploadFile(file) {
+      dropZone.querySelector('p').innerText = "⏳ Đang nạp Vector...";
+      const formData = new FormData();
+      formData.append("file", file);
+      try {
+        const res = await fetch(`${API}/upload`, { method: "POST", body: formData });
+        const data = await res.json();
+        if(res.ok) {
+          dropZone.querySelector('p').innerText = `✅ Đã nạp ${data.count || ''} mệnh đề`;
+          checkHealth();
+        } else throw new Error(data.detail);
+      } catch (err) {
+        alert("Lỗi upload: " + err.message);
+        dropZone.querySelector('p').innerText = "Nạp tri thức pháp lý";
+      }
+    }
+
+    // Xóa Chat
+    function clearChat() {
+      const box = document.getElementById('chat-box');
+      box.innerHTML = `
+        <div class="welcome" id="welcome-screen">
+          <h2>Xin chào, tôi là trợ lý pháp lý ảo.</h2>
+          <p>Hệ thống được thiết kế bằng kiến trúc <b>RAG</b> tiên tiến.<br>Vui lòng nạp dữ liệu hợp đồng để bắt đầu phân tích.</p>
+        </div>`;
+    }
+
+    // Logic Chat
+    async function sendQuery() {
+      const input = document.getElementById('user-input');
+      const text = input.value.trim();
+      if (!text) return;
+
+      input.value = '';
+      input.style.height = 'auto';
+      document.getElementById('send-btn').disabled = true;
+
+      if(document.getElementById('welcome-screen')) document.getElementById('welcome-screen').remove();
+
+      // Hiện câu của user
+      appendMessage('user', text);
+
+      // Hiện khung Loading
+      const thinkId = 'think-' + Date.now();
+      appendThinking(thinkId);
+
+      try {
+        const k = document.getElementById('k-select').value;
+        const res = await fetch(`${API}/query`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ query: text, k: parseInt(k) })
+        });
+        
+        if (!res.ok) throw new Error("Lỗi Backend");
+        const data = await res.json();
+
+        document.getElementById(thinkId).remove();
+        
+        // Hiện câu trả lời của AI
+        appendMessage('bot', data.answer, data.sources, data.pipeline_steps);
+        
+        queryCount++;
+        document.getElementById('stat-queries').innerText = queryCount;
+
+      } catch (err) {
+        document.getElementById(thinkId).remove();
+        appendMessage('bot', `⚠️ **Lỗi kết nối**: Không thể tạo câu trả lời. Vui lòng kiểm tra Terminal chạy Uvicorn.`);
+      }
+
+      document.getElementById('send-btn').disabled = false;
+      input.focus();
+    }
+
+    function appendThinking(id) {
+      const box = document.getElementById('chat-box');
+      box.insertAdjacentHTML('beforeend', `
+        <div class="msg-wrapper bot" id="${id}">
+          <div class="avatar">⚖️</div>
+          <div class="bubble">
+            <div class="thinking">
+              <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+              <span class="think-text">RAG đang trích xuất & phân tích...</span>
+            </div>
+          </div>
+        </div>
+      `);
+      box.scrollTop = box.scrollHeight;
+    }
+
+    function appendMessage(role, text, sources = [], steps = []) {
+      const box = document.getElementById('chat-box');
+      const isUser = role === 'user';
+      
+      // Xử lý Markdown cho AI
+      const content = isUser ? escapeHTML(text) : marked.parse(text);
+
+      let html = `
+        <div class="msg-wrapper ${role}">
+          <div class="avatar">${isUser ? '👤' : '⚖️'}</div>
+          <div class="bubble">
+            ${content}
+            ${!isUser ? `<button class="copy-btn" onclick="navigator.clipboard.writeText(\`${text.replace(/"/g, '&quot;')}\`)">📋</button>` : ''}
+      `;
+
+      // Render Pipeline Steps
+      if (steps.length > 0) {
+        html += `<div class="pipeline" style="margin-top: 10px; border-top: 1px solid var(--border); padding-top: 10px;">`;
+        steps.forEach(s => html += `<span class="pipe-badge">✓ ${s}</span>`);
+        html += `</div>`;
+      }
+
+      // Render Nguồn (Sources + NER + Intent)
+      if (sources.length > 0) {
+        html += `<div class="sources-container">
+                  <p style="font-size:12px; color:var(--accent); margin-bottom:8px; font-weight:500;">📎 Cơ sở pháp lý truy xuất (Top ${sources.length}):</p>`;
+        
+        sources.forEach((s, idx) => {
+          // Lấy text clause (tương thích cả Ass1 raw text và Ass2 JSON)
+          const clauseText = s.clause_text || s.text || s.clause || "";
+          const docName = s.doc || "combined_results.json";
+          const score = s.score ? `Độ khớp: ${(s.score*100).toFixed(1)}%` : '';
+
+          html += `
+            <div class="source-card">
+              <div class="source-header">
+                <span>[Mệnh đề ${idx + 1}] - ${docName}</span>
+                <span>${score}</span>
+              </div>
+              <div class="source-content">${escapeHTML(clauseText)}</div>
+          `;
+
+          // Xử lý Metadata từ Assignment 2
+          const hasIntent = s.intent && s.intent !== "Unknown";
+          const hasNer = s.ner && s.ner.length > 0;
+          
+          if (hasIntent || hasNer) {
+            html += `<div class="tags-area">`;
+            if (hasIntent) html += `<span class="tag-intent">${s.intent}</span>`;
+            if (hasNer) {
+              s.ner.forEach(e => {
+                html += `<span class="tag-ner">${e.text} [${e.label}]</span>`;
+              });
+            }
+            html += `</div>`;
+          }
+          
+          html += `</div>`; // Đóng source-card
+        });
+        html += `</div>`;
+      }
+
+      html += `</div></div>`;
+      box.insertAdjacentHTML('beforeend', html);
+      box.scrollTop = box.scrollHeight;
+    }
+
+    function escapeHTML(str) {
+      return str.replace(/[&<>'"]/g, tag => ({
+          '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+        }[tag]));
+    }
+  </script>
+</body>
+</html>
