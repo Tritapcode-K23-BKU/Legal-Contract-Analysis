@@ -1,0 +1,192 @@
+[
+  {
+    "clause_id": 1,
+    "clause": "Bên A đồng ý cho Bên B thuê mặt bằng kinh doanh tại tầng 1 tòa nhà Bách Khoa.",
+    "intent": "Obligation",
+    "confidence": 0.6288,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Obligation (63%)",
+    "alternatives": [
+      {
+        "intent": "Right",
+        "confidence": 0.1898
+      },
+      {
+        "intent": "Termination_Condition",
+        "confidence": 0.0944
+      }
+    ]
+  },
+  {
+    "clause_id": 2,
+    "clause": "Thời hạn thuê là 12 tháng.",
+    "intent": "Right",
+    "confidence": 0.5117,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Right (51%)",
+    "alternatives": [
+      {
+        "intent": "Termination_Condition",
+        "confidence": 0.2544
+      },
+      {
+        "intent": "Obligation",
+        "confidence": 0.1563
+      }
+    ]
+  },
+  {
+    "clause_id": 3,
+    "clause": "Bên B phải thanh toán toàn bộ tiền thuê trước ngày 5 hàng tháng.",
+    "intent": "Obligation",
+    "confidence": 0.8689,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Obligation (87%)",
+    "alternatives": [
+      {
+        "intent": "Termination_Condition",
+        "confidence": 0.0527
+      },
+      {
+        "intent": "Right",
+        "confidence": 0.0414
+      }
+    ]
+  },
+  {
+    "clause_id": 4,
+    "clause": "Nếu Bên B thanh toán trễ hạn, mức phạt 1,5% mỗi ngày sẽ được áp dụng đối với số tiền chậm trả.",
+    "intent": "Obligation",
+    "confidence": 0.842,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Obligation (84%)",
+    "alternatives": [
+      {
+        "intent": "Termination_Condition",
+        "confidence": 0.0783
+      },
+      {
+        "intent": "Right",
+        "confidence": 0.0469
+      }
+    ]
+  },
+  {
+    "clause_id": 5,
+    "clause": "Bên B không được phép chuyển nhượng hợp đồng cho bên thứ ba, trừ khi có sự đồng ý bằng văn bản của Bên A.",
+    "intent": "Prohibition",
+    "confidence": 0.8798,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Prohibition (88%)",
+    "alternatives": [
+      {
+        "intent": "Right",
+        "confidence": 0.0452
+      },
+      {
+        "intent": "Termination_Condition",
+        "confidence": 0.0377
+      }
+    ]
+  },
+  {
+    "clause_id": 6,
+    "clause": "Bên A có quyền đơn phương chấm dứt hợp đồng nếu Bên B sử dụng mặt bằng sai mục đích đã cam kết.",
+    "intent": "Right",
+    "confidence": 0.4321,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Right (43%)",
+    "alternatives": [
+      {
+        "intent": "Termination_Condition",
+        "confidence": 0.4182
+      },
+      {
+        "intent": "Prohibition",
+        "confidence": 0.1113
+      }
+    ]
+  },
+  {
+    "clause_id": 7,
+    "clause": "Trong quá trình thực hiện hợp đồng, Bên B có trách nhiệm tự bảo quản tài sản cá nhân.",
+    "intent": "Obligation",
+    "confidence": 0.8424,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Obligation (84%)",
+    "alternatives": [
+      {
+        "intent": "Right",
+        "confidence": 0.0693
+      },
+      {
+        "intent": "Termination_Condition",
+        "confidence": 0.0498
+      }
+    ]
+  },
+  {
+    "clause_id": 8,
+    "clause": "Bên A sẽ không chịu trách nhiệm đối với bất kỳ mất mát nào.",
+    "intent": "Prohibition",
+    "confidence": 0.3649,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Prohibition (36%)",
+    "alternatives": [
+      {
+        "intent": "Obligation",
+        "confidence": 0.3311
+      },
+      {
+        "intent": "Right",
+        "confidence": 0.1748
+      }
+    ]
+  },
+  {
+    "clause_id": 9,
+    "clause": "Trong trường hợp xảy ra sự kiện bất khả kháng như thiên tai hoặc dịch bệnh, hai bên sẽ cùng nhau thương lượng để tìm hướng giải quyết.",
+    "intent": "Termination Condition",
+    "confidence": 0.8284,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Termination_Condition (83%)",
+    "alternatives": [
+      {
+        "intent": "Obligation",
+        "confidence": 0.0723
+      },
+      {
+        "intent": "Right",
+        "confidence": 0.0506
+      }
+    ]
+  },
+  {
+    "clause_id": 10,
+    "clause": "Nếu không đạt được thỏa thuận, sự việc sẽ được đưa ra Tòa án có thẩm quyền để phân xử.",
+    "intent": "Termination Condition",
+    "confidence": 0.8224,
+    "model": "phobert",
+    "keywords_matched": [],
+    "explanation": "PhoBERT fine-tuned: Termination_Condition (82%)",
+    "alternatives": [
+      {
+        "intent": "Right",
+        "confidence": 0.0625
+      },
+      {
+        "intent": "Obligation",
+        "confidence": 0.0592
+      }
+    ]
+  }
+]

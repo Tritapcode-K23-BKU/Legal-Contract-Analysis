@@ -1,0 +1,422 @@
+[
+  {
+    "clause_id": 1,
+    "clause": "Bên A đồng ý cho Bên B thuê mặt bằng kinh doanh tại tầng 1 tòa nhà Bách Khoa.",
+    "ner": [
+      {
+        "text": "Bên A",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 17,
+        "end_char": 22,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "mặt bằng kinh doanh tại tầng 1 tòa nhà Bách Khoa",
+        "label": "LOCATION",
+        "start_char": 28,
+        "end_char": 76,
+        "description": "Địa điểm cơ bản"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "đồng ý",
+        "predicate_type": "consent",
+        "roles": {
+          "Agent": "Bên A",
+          "Recipient": "Bên B",
+          "Location": "tầng 1 tòa nhà Bách Khoa",
+          "Theme": "thuê mặt bằng kinh doanh"
+        },
+        "explanation": "Bên A thực hiện 'đồng ý'; đối với 'thuê mặt bằng kinh doanh'; hướng đến 'Bên B'; tại 'tầng 1 tòa nhà Bách Khoa'."
+      },
+      {
+        "predicate": "thuê",
+        "predicate_type": "lease",
+        "roles": {
+          "Agent": "Bên B",
+          "Location": "tầng 1 tòa nhà Bách Khoa",
+          "Theme": "mặt bằng kinh doanh"
+        },
+        "explanation": "Bên B thực hiện 'thuê'; đối với 'mặt bằng kinh doanh'; tại 'tầng 1 tòa nhà Bách Khoa'."
+      }
+    ],
+    "intent": "Right",
+    "confidence": 1.0,
+    "explanation": "Rules matched: 'đồng ý' → Right"
+  },
+  {
+    "clause_id": 2,
+    "clause": "Thời hạn thuê là 12 tháng.",
+    "ner": [
+      {
+        "text": "12 tháng",
+        "label": "DATE",
+        "start_char": 17,
+        "end_char": 25,
+        "description": "Thời hạn"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "là",
+        "predicate_type": "copula",
+        "roles": {
+          "Time": "12 tháng"
+        },
+        "explanation": "Mệnh đề định nghĩa/thời hạn."
+      }
+    ],
+    "intent": "Obligation",
+    "confidence": 1.0,
+    "explanation": "Rules matched: 'thời hạn' → Obligation"
+  },
+  {
+    "clause_id": 3,
+    "clause": "Bên B phải thanh toán toàn bộ tiền thuê trước ngày 5 hàng tháng.",
+    "ner": [
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "tiền thuê",
+        "label": "MONEY",
+        "start_char": 30,
+        "end_char": 39,
+        "description": "Tiền thuê"
+      },
+      {
+        "text": "trước ngày 5 hàng tháng",
+        "label": "DATE",
+        "start_char": 40,
+        "end_char": 63,
+        "description": "Hạn thanh toán hàng tháng"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "thanh toán toàn bộ",
+        "predicate_type": "legal action",
+        "roles": {
+          "Agent": "Bên B",
+          "Time": "trước ngày 5 hàng tháng",
+          "Theme": "tiền thuê"
+        },
+        "explanation": "Bên B thực hiện 'thanh toán toàn bộ'; đối với 'tiền thuê'; vào 'trước ngày 5 hàng tháng'."
+      }
+    ],
+    "intent": "Obligation",
+    "confidence": 1.0,
+    "explanation": "Rules matched: 'phải, thanh toán' → Obligation"
+  },
+  {
+    "clause_id": 4,
+    "clause": "Nếu Bên B thanh toán trễ hạn, mức phạt 1,5% mỗi ngày sẽ được áp dụng đối với số tiền chậm trả.",
+    "ner": [
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 4,
+        "end_char": 9,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "trễ hạn",
+        "label": "PENALTY",
+        "start_char": 21,
+        "end_char": 28,
+        "description": "Trễ hạn"
+      },
+      {
+        "text": "mức phạt",
+        "label": "PENALTY",
+        "start_char": 30,
+        "end_char": 38,
+        "description": "Mức phạt"
+      },
+      {
+        "text": "1,5%",
+        "label": "RATE",
+        "start_char": 39,
+        "end_char": 43,
+        "description": "Tỷ lệ phần trăm"
+      },
+      {
+        "text": "số tiền chậm trả",
+        "label": "MONEY",
+        "start_char": 77,
+        "end_char": 93,
+        "description": "Tiền phạt chậm"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "áp dụng",
+        "predicate_type": "application",
+        "roles": {
+          "Condition": "Bên B thanh toán trễ hạn",
+          "Theme": "mức phạt 1,5% mỗi ngày"
+        },
+        "explanation": "Hành động 'áp dụng'; đối với 'mức phạt 1,5% mỗi ngày'; khi 'Bên B thanh toán trễ hạn'."
+      }
+    ],
+    "intent": "Obligation",
+    "confidence": 1.0,
+    "explanation": "Rules matched: 'thanh toán, mức phạt, trễ hạn' → Obligation"
+  },
+  {
+    "clause_id": 5,
+    "clause": "Bên B không được phép chuyển nhượng hợp đồng cho bên thứ ba, trừ khi có sự đồng ý bằng văn bản của Bên A.",
+    "ner": [
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "hợp đồng",
+        "label": "LAW",
+        "start_char": 36,
+        "end_char": 44,
+        "description": "Văn bản hợp đồng"
+      },
+      {
+        "text": "bên thứ ba",
+        "label": "PARTY",
+        "start_char": 49,
+        "end_char": 59,
+        "description": "Bên thứ ba"
+      },
+      {
+        "text": "văn bản",
+        "label": "LAW",
+        "start_char": 87,
+        "end_char": 94,
+        "description": "Hình thức văn bản"
+      },
+      {
+        "text": "Bên A",
+        "label": "PARTY",
+        "start_char": 99,
+        "end_char": 104,
+        "description": "Bên ký kết"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "chuyển nhượng",
+        "predicate_type": "assignment",
+        "roles": {
+          "Agent": "Bên B",
+          "Condition": "có sự đồng ý bằng văn bản của Bên A",
+          "Recipient": "bên thứ ba",
+          "Negation": "không",
+          "Theme": "hợp đồng"
+        },
+        "explanation": "Bên B thực hiện 'chuyển nhượng'; đối với 'hợp đồng'; hướng đến 'bên thứ ba'; khi 'có sự đồng ý bằng văn bản của Bên A'; (phủ định)."
+      }
+    ],
+    "intent": "Prohibition",
+    "confidence": 0.5294,
+    "explanation": "Rules matched: 'không được, không được phép' → Prohibition"
+  },
+  {
+    "clause_id": 6,
+    "clause": "Bên A có quyền đơn phương chấm dứt hợp đồng nếu Bên B sử dụng mặt bằng sai mục đích đã cam kết.",
+    "ner": [
+      {
+        "text": "Bên A",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "hợp đồng",
+        "label": "LAW",
+        "start_char": 35,
+        "end_char": 43,
+        "description": "Văn bản hợp đồng"
+      },
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 48,
+        "end_char": 53,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "mặt bằng sai mục đích đã cam kết",
+        "label": "LOCATION",
+        "start_char": 62,
+        "end_char": 94,
+        "description": "Mặt bằng"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "đơn phương chấm dứt",
+        "predicate_type": "termination",
+        "roles": {
+          "Agent": "Bên A",
+          "Condition": "Bên B sử dụng mặt bằng sai mục đích đã cam kết",
+          "Theme": "hợp đồng"
+        },
+        "explanation": "Bên A thực hiện 'đơn phương chấm dứt'; đối với 'hợp đồng'; khi 'Bên B sử dụng mặt bằng sai mục đích đã cam kết'."
+      }
+    ],
+    "intent": "Termination Condition",
+    "confidence": 0.75,
+    "explanation": "Rules matched: 'chấm dứt hợp đồng, đơn phương chấm dứt' → Termination_Condition"
+  },
+  {
+    "clause_id": 7,
+    "clause": "Trong quá trình thực hiện hợp đồng, Bên B có trách nhiệm tự bảo quản tài sản cá nhân.",
+    "ner": [
+      {
+        "text": "hợp đồng",
+        "label": "LAW",
+        "start_char": 26,
+        "end_char": 34,
+        "description": "Văn bản hợp đồng"
+      },
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 36,
+        "end_char": 41,
+        "description": "Bên ký kết"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "bảo quản",
+        "predicate_type": "preservation",
+        "roles": {
+          "Agent": "Bên B",
+          "Condition": "thực hiện hợp đồng",
+          "Theme": "tài sản cá nhân"
+        },
+        "explanation": "Bên B thực hiện 'bảo quản'; đối với 'tài sản cá nhân'; khi 'thực hiện hợp đồng'."
+      }
+    ],
+    "intent": "Obligation",
+    "confidence": 1.0,
+    "explanation": "Rules matched: 'có trách nhiệm, bảo quản' → Obligation"
+  },
+  {
+    "clause_id": 8,
+    "clause": "Bên A sẽ không chịu trách nhiệm đối với bất kỳ mất mát nào.",
+    "ner": [
+      {
+        "text": "Bên A",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "chịu trách nhiệm",
+        "predicate_type": "responsibility",
+        "roles": {
+          "Agent": "Bên A",
+          "Negation": "không",
+          "Theme": "bất kỳ mất mát nào"
+        },
+        "explanation": "Bên A thực hiện 'chịu trách nhiệm'; đối với 'bất kỳ mất mát nào'; (phủ định)."
+      }
+    ],
+    "intent": "Right",
+    "confidence": 1.0,
+    "explanation": "Rules matched: 'không chịu trách nhiệm' → Right"
+  },
+  {
+    "clause_id": 9,
+    "clause": "Trong trường hợp xảy ra sự kiện bất khả kháng như thiên tai hoặc dịch bệnh, hai bên sẽ cùng nhau thương lượng để tìm hướng giải quyết.",
+    "ner": [
+      {
+        "text": "sự kiện bất khả kháng",
+        "label": "PENALTY",
+        "start_char": 24,
+        "end_char": 45,
+        "description": "Sự kiện bất khả kháng"
+      },
+      {
+        "text": "hai bên",
+        "label": "PARTY",
+        "start_char": 76,
+        "end_char": 83,
+        "description": "Hai bên ký kết"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "thương lượng",
+        "predicate_type": "negotiation",
+        "roles": {
+          "Agent": "hai bên",
+          "Condition": "xảy ra sự kiện bất khả kháng như thiên tai hoặc dịch bệnh",
+          "Purpose": "tìm hướng giải quyết"
+        },
+        "explanation": "hai bên thực hiện 'thương lượng'; khi 'xảy ra sự kiện bất khả kháng như thiên tai hoặc dịch bệnh'; nhằm 'tìm hướng giải quyết'."
+      }
+    ],
+    "intent": "Obligation",
+    "confidence": 1.0,
+    "explanation": "Rules matched: 'thương lượng' → Obligation"
+  },
+  {
+    "clause_id": 10,
+    "clause": "Nếu không đạt được thỏa thuận, sự việc sẽ được đưa ra Tòa án có thẩm quyền để phân xử.",
+    "ner": [
+      {
+        "text": "Tòa án có thẩm quyền để phân xử",
+        "label": "LAW",
+        "start_char": 54,
+        "end_char": 85,
+        "description": "Cơ quan pháp luật"
+      }
+    ],
+    "srl": [
+      {
+        "predicate": "phân xử",
+        "predicate_type": "adjudication",
+        "roles": {
+          "Condition": "không đạt được thỏa thuận",
+          "Location": "Tòa án có thẩm quyền",
+          "Purpose": "phân xử"
+        },
+        "explanation": "Hành động 'phân xử'; khi 'không đạt được thỏa thuận'; nhằm 'phân xử'; tại 'Tòa án có thẩm quyền'."
+      },
+      {
+        "predicate": "đưa ra",
+        "predicate_type": "submission",
+        "roles": {
+          "Condition": "không đạt được thỏa thuận",
+          "Location": "Tòa án có thẩm quyền",
+          "Purpose": "phân xử",
+          "Theme": "sự việc"
+        },
+        "explanation": "Hành động 'đưa ra'; đối với 'sự việc'; khi 'không đạt được thỏa thuận'; nhằm 'phân xử'; tại 'Tòa án có thẩm quyền'."
+      }
+    ],
+    "intent": "Right",
+    "confidence": 1.0,
+    "explanation": "Rules matched: 'tòa án, phân xử' → Right"
+  }
+]

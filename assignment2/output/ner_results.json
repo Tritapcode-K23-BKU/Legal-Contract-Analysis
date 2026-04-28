@@ -1,0 +1,251 @@
+[
+  {
+    "clause_id": 1,
+    "clause": "Bên A đồng ý cho Bên B thuê mặt bằng kinh doanh tại tầng 1 tòa nhà Bách Khoa.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 17,
+        "end_char": 22,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "mặt bằng kinh doanh tại tầng 1 tòa nhà Bách Khoa",
+        "label": "LOCATION",
+        "start_char": 28,
+        "end_char": 76,
+        "description": "Địa điểm cơ bản"
+      }
+    ]
+  },
+  {
+    "clause_id": 2,
+    "clause": "Thời hạn thuê là 12 tháng.",
+    "entities": [
+      {
+        "text": "12 tháng",
+        "label": "DATE",
+        "start_char": 17,
+        "end_char": 25,
+        "description": "Thời hạn"
+      }
+    ]
+  },
+  {
+    "clause_id": 3,
+    "clause": "Bên B phải thanh toán toàn bộ tiền thuê trước ngày 5 hàng tháng.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "tiền thuê",
+        "label": "MONEY",
+        "start_char": 30,
+        "end_char": 39,
+        "description": "Tiền thuê"
+      },
+      {
+        "text": "trước ngày 5 hàng tháng",
+        "label": "DATE",
+        "start_char": 40,
+        "end_char": 63,
+        "description": "Hạn thanh toán hàng tháng"
+      }
+    ]
+  },
+  {
+    "clause_id": 4,
+    "clause": "Nếu Bên B thanh toán trễ hạn, mức phạt 1,5% mỗi ngày sẽ được áp dụng đối với số tiền chậm trả.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 4,
+        "end_char": 9,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "trễ hạn",
+        "label": "PENALTY",
+        "start_char": 21,
+        "end_char": 28,
+        "description": "Trễ hạn"
+      },
+      {
+        "text": "mức phạt",
+        "label": "PENALTY",
+        "start_char": 30,
+        "end_char": 38,
+        "description": "Mức phạt"
+      },
+      {
+        "text": "1,5%",
+        "label": "RATE",
+        "start_char": 39,
+        "end_char": 43,
+        "description": "Tỷ lệ phần trăm"
+      },
+      {
+        "text": "số tiền chậm trả",
+        "label": "MONEY",
+        "start_char": 77,
+        "end_char": 93,
+        "description": "Tiền phạt chậm"
+      }
+    ]
+  },
+  {
+    "clause_id": 5,
+    "clause": "Bên B không được phép chuyển nhượng hợp đồng cho bên thứ ba, trừ khi có sự đồng ý bằng văn bản của Bên A.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "hợp đồng",
+        "label": "LAW",
+        "start_char": 36,
+        "end_char": 44,
+        "description": "Văn bản hợp đồng"
+      },
+      {
+        "text": "bên thứ ba",
+        "label": "PARTY",
+        "start_char": 49,
+        "end_char": 59,
+        "description": "Bên thứ ba"
+      },
+      {
+        "text": "văn bản",
+        "label": "LAW",
+        "start_char": 87,
+        "end_char": 94,
+        "description": "Hình thức văn bản"
+      },
+      {
+        "text": "Bên A",
+        "label": "PARTY",
+        "start_char": 99,
+        "end_char": 104,
+        "description": "Bên ký kết"
+      }
+    ]
+  },
+  {
+    "clause_id": 6,
+    "clause": "Bên A có quyền đơn phương chấm dứt hợp đồng nếu Bên B sử dụng mặt bằng sai mục đích đã cam kết.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "hợp đồng",
+        "label": "LAW",
+        "start_char": 35,
+        "end_char": 43,
+        "description": "Văn bản hợp đồng"
+      },
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 48,
+        "end_char": 53,
+        "description": "Bên ký kết"
+      },
+      {
+        "text": "mặt bằng sai mục đích đã cam kết",
+        "label": "LOCATION",
+        "start_char": 62,
+        "end_char": 94,
+        "description": "Mặt bằng"
+      }
+    ]
+  },
+  {
+    "clause_id": 7,
+    "clause": "Trong quá trình thực hiện hợp đồng, Bên B có trách nhiệm tự bảo quản tài sản cá nhân.",
+    "entities": [
+      {
+        "text": "hợp đồng",
+        "label": "LAW",
+        "start_char": 26,
+        "end_char": 34,
+        "description": "Văn bản hợp đồng"
+      },
+      {
+        "text": "Bên B",
+        "label": "PARTY",
+        "start_char": 36,
+        "end_char": 41,
+        "description": "Bên ký kết"
+      }
+    ]
+  },
+  {
+    "clause_id": 8,
+    "clause": "Bên A sẽ không chịu trách nhiệm đối với bất kỳ mất mát nào.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "label": "PARTY",
+        "start_char": 0,
+        "end_char": 5,
+        "description": "Bên ký kết"
+      }
+    ]
+  },
+  {
+    "clause_id": 9,
+    "clause": "Trong trường hợp xảy ra sự kiện bất khả kháng như thiên tai hoặc dịch bệnh, hai bên sẽ cùng nhau thương lượng để tìm hướng giải quyết.",
+    "entities": [
+      {
+        "text": "sự kiện bất khả kháng",
+        "label": "PENALTY",
+        "start_char": 24,
+        "end_char": 45,
+        "description": "Sự kiện bất khả kháng"
+      },
+      {
+        "text": "hai bên",
+        "label": "PARTY",
+        "start_char": 76,
+        "end_char": 83,
+        "description": "Hai bên ký kết"
+      }
+    ]
+  },
+  {
+    "clause_id": 10,
+    "clause": "Nếu không đạt được thỏa thuận, sự việc sẽ được đưa ra Tòa án có thẩm quyền để phân xử.",
+    "entities": [
+      {
+        "text": "Tòa án có thẩm quyền để phân xử",
+        "label": "LAW",
+        "start_char": 54,
+        "end_char": 85,
+        "description": "Cơ quan pháp luật"
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "test_size": 82,
+  "models": [
+    {
+      "model": "TF-IDF + Logistic Regression",
+      "test_precision": 0.9868,
+      "test_recall": 0.9891,
+      "test_f1_macro": 0.9877,
+      "cv_f1_macro": 0.9704,
+      "cv_f1_std": 0.0512,
+      "per_class": {
+        "Obligation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 29.0
+        },
+        "Prohibition": {
+          "precision": 0.9473684210526315,
+          "recall": 1.0,
+          "f1-score": 0.972972972972973,
+          "support": 18.0
+        },
+        "Right": {
+          "precision": 1.0,
+          "recall": 0.9565217391304348,
+          "f1-score": 0.9777777777777777,
+          "support": 23.0
+        },
+        "Termination_Condition": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 12.0
+        },
+        "accuracy": 0.9878048780487805,
+        "macro avg": {
+          "precision": 0.9868421052631579,
+          "recall": 0.9891304347826086,
+          "f1-score": 0.9876876876876877,
+          "support": 82.0
+        },
+        "weighted avg": {
+          "precision": 0.9884467265725289,
+          "recall": 0.9878048780487805,
+          "f1-score": 0.9878341756390536,
+          "support": 82.0
+        }
+      }
+    },
+    {
+      "model": "PhoBERT-base-v2 fine-tuned",
+      "test_precision": 0.9896,
+      "test_recall": 0.9914,
+      "test_f1_macro": 0.9903,
+      "per_class": {
+        "Obligation": {
+          "precision": 1.0,
+          "recall": 0.9655172413793104,
+          "f1-score": 0.9824561403508771,
+          "support": 29.0
+        },
+        "Prohibition": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 18.0
+        },
+        "Right": {
+          "precision": 0.9583333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9787234042553191,
+          "support": 23.0
+        },
+        "Termination_Condition": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 12.0
+        },
+        "accuracy": 0.9878048780487805,
+        "macro avg": {
+          "precision": 0.9895833333333334,
+          "recall": 0.9913793103448276,
+          "f1-score": 0.990294886151549,
+          "support": 82.0
+        },
+        "weighted avg": {
+          "precision": 0.9883130081300814,
+          "recall": 0.9878048780487805,
+          "f1-score": 0.9878276386347291,
+          "support": 82.0
+        }
+      }
+    }
+  ],
+  "verdict": {
+    "better_model": "PhoBERT",
+    "f1_difference": 0.0026,
+    "note": "PhoBERT tốt hơn 0.26%. PhoBERT hiểu ngữ nghĩa sâu hơn."
+  }
+}
