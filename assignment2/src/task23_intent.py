@@ -826,7 +826,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--dataset", default=None,
-        help="Path đến JSON dataset bổ sung (vd: output/train_dataset_large.json)"
+        help="Path đến JSON dataset bổ sung (vd: input/train_dataset_large.json)"
     )
     args = parser.parse_args()
 
