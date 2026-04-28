@@ -1,1 +1,10 @@
-
+Bên A đồng ý cho Bên B thuê mặt bằng kinh doanh tại tầng 1 tòa nhà Bách Khoa.	Obligation
+Thời hạn thuê là 12 tháng.	Right
+Bên B phải thanh toán toàn bộ tiền thuê trước ngày 5 hàng tháng.	Obligation
+Nếu Bên B thanh toán trễ hạn, mức phạt 1,5% mỗi ngày sẽ được áp dụng đối với số tiền chậm trả.	Obligation
+Bên B không được phép chuyển nhượng hợp đồng cho bên thứ ba, trừ khi có sự đồng ý bằng văn bản của Bên A.	Prohibition
+Bên A có quyền đơn phương chấm dứt hợp đồng nếu Bên B sử dụng mặt bằng sai mục đích đã cam kết.	Right
+Trong quá trình thực hiện hợp đồng, Bên B có trách nhiệm tự bảo quản tài sản cá nhân.	Obligation
+Bên A sẽ không chịu trách nhiệm đối với bất kỳ mất mát nào.	Prohibition
+Trong trường hợp xảy ra sự kiện bất khả kháng như thiên tai hoặc dịch bệnh, hai bên sẽ cùng nhau thương lượng để tìm hướng giải quyết.Termination Condition
+Nếu không đạt được thỏa thuận, sự việc sẽ được đưa ra Tòa án có thẩm quyền để phân xử.	Termination Condition
