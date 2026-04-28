@@ -1,1 +1,169 @@
+Bên	B-NP
+A	I-NP
+đồng ý	O
+cho	O
+Bên	B-NP
+B	I-NP
+thuê	O
+mặt bằng	B-NP
+kinh doanh	O
+tại	O
+tầng	B-NP
+1	I-NP
+toà	I-NP
+nhà	I-NP
+Bách Khoa	I-NP
+.	O
+
+Thời hạn	B-NP
+thuê	O
+là	O
+12	B-NP
+tháng	I-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+thanh toán	O
+toàn bộ	O
+tiền	B-NP
+thuê	O
+trước	O
+ngày	B-NP
+5	I-NP
+hàng	I-NP
+tháng	I-NP
+.	O
+
+Nếu	O
+Bên	B-NP
+B	I-NP
+thanh toán	O
+trễ	O
+hạn	B-NP
+,	O
+mức	B-NP
+phạt	I-NP
+1,5%	I-NP
+mỗi	B-NP
+ngày	I-NP
+sẽ	O
+được	O
+áp dụng	O
+đối với	O
+số	B-NP
+tiền	I-NP
+chậm	I-NP
+trả	I-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+không	O
+được	O
+phép	B-NP
+chuyển nhượng	O
+hợp đồng	B-NP
+cho	O
+bên	B-NP
+thứ	I-NP
+ba	I-NP
+,	O
+trừ	O
+khi	B-NP
+có	O
+sự	B-NP
+đồng ý	O
+bằng	O
+văn bản	B-NP
+của	O
+Bên	B-NP
+A.	I-NP
+
+Bên	B-NP
+A	I-NP
+có	O
+quyền	B-NP
+đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
+nếu	O
+Bên	B-NP
+B	I-NP
+sử dụng	O
+mặt bằng	B-NP
+sai	O
+mục đích	B-NP
+đã	O
+cam kết	O
+.	O
+
+Trong	O
+quá trình	B-NP
+thực hiện	O
+hợp đồng	B-NP
+,	O
+Bên	B-NP
+B	I-NP
+có	O
+trách nhiệm	B-NP
+tự	I-NP
+bảo quản	O
+tài sản	B-NP
+cá nhân	I-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+sẽ	O
+không	O
+chịu	O
+trách nhiệm	B-NP
+đối với	O
+bất kỳ	O
+mất mát	B-NP
+nào	I-NP
+.	O
+
+Trong	O
+trường hợp	B-NP
+xảy	O
+ra	O
+sự kiện	B-NP
+bất khả kháng	I-NP
+như	O
+thiên tai	B-NP
+hoặc	O
+dịch bệnh	B-NP
+,	O
+hai	B-NP
+bên	I-NP
+sẽ	O
+cùng	O
+nhau	B-NP
+thương lượng	O
+để	O
+tìm	O
+hướng	B-NP
+giải quyết	O
+.	O
+
+Nếu	O
+không	O
+đạt	O
+được	O
+thoả thuận	O
+,	O
+sự việc	B-NP
+sẽ	O
+được	O
+đưa	O
+ra	O
+Toà án	B-NP
+có	O
+thẩm quyền	B-NP
+để	O
+phân xử	O
+.	O
 
