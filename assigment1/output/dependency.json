@@ -1,1 +1,857 @@
-
+[
+    {
+        "clause_id": 1,
+        "clause_text": "Bên A đồng ý cho Bên B thuê mặt bằng kinh doanh tại tầng 1 tòa nhà Bách Khoa.",
+        "dependency": [
+            {
+                "Token": "Bên",
+                "Head": 3,
+                "Relation": "sub"
+            },
+            {
+                "Token": "A",
+                "Head": 1,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "đồng ý",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "cho",
+                "Head": 3,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "Bên",
+                "Head": 4,
+                "Relation": "pob"
+            },
+            {
+                "Token": "B",
+                "Head": 5,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "thuê",
+                "Head": 3,
+                "Relation": "prp"
+            },
+            {
+                "Token": "mặt bằng",
+                "Head": 7,
+                "Relation": "dob"
+            },
+            {
+                "Token": "kinh doanh",
+                "Head": 8,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "tại",
+                "Head": 5,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "tầng",
+                "Head": 10,
+                "Relation": "pob"
+            },
+            {
+                "Token": "1",
+                "Head": 11,
+                "Relation": "det"
+            },
+            {
+                "Token": "toà",
+                "Head": 11,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "nhà",
+                "Head": 13,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "Bách Khoa",
+                "Head": 14,
+                "Relation": "nmod"
+            },
+            {
+                "Token": ".",
+                "Head": 3,
+                "Relation": "punct"
+            }
+        ]
+    },
+    {
+        "clause_id": 2,
+        "clause_text": "Thời hạn thuê là 12 tháng.",
+        "dependency": [
+            {
+                "Token": "Thời hạn",
+                "Head": 3,
+                "Relation": "sub"
+            },
+            {
+                "Token": "thuê",
+                "Head": 1,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "là",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "12",
+                "Head": 5,
+                "Relation": "det"
+            },
+            {
+                "Token": "tháng",
+                "Head": 3,
+                "Relation": "tmp"
+            },
+            {
+                "Token": ".",
+                "Head": 3,
+                "Relation": "punct"
+            }
+        ]
+    },
+    {
+        "clause_id": 3,
+        "clause_text": "Bên B phải thanh toán toàn bộ tiền thuê trước ngày 5 hàng tháng.",
+        "dependency": [
+            {
+                "Token": "Bên",
+                "Head": 3,
+                "Relation": "sub"
+            },
+            {
+                "Token": "B",
+                "Head": 1,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "phải",
+                "Head": 4,
+                "Relation": "aux"
+            },
+            {
+                "Token": "thanh toán",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "toàn bộ",
+                "Head": 6,
+                "Relation": "det"
+            },
+            {
+                "Token": "tiền",
+                "Head": 4,
+                "Relation": "dob"
+            },
+            {
+                "Token": "thuê",
+                "Head": 6,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "trước",
+                "Head": 6,
+                "Relation": "tmp"
+            },
+            {
+                "Token": "ngày",
+                "Head": 8,
+                "Relation": "pob"
+            },
+            {
+                "Token": "5",
+                "Head": 9,
+                "Relation": "det"
+            },
+            {
+                "Token": "hàng",
+                "Head": 9,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "tháng",
+                "Head": 11,
+                "Relation": "nmod"
+            },
+            {
+                "Token": ".",
+                "Head": 3,
+                "Relation": "punct"
+            }
+        ]
+    },
+    {
+        "clause_id": 4,
+        "clause_text": "Nếu Bên B thanh toán trễ hạn, mức phạt 1,5% mỗi ngày sẽ được áp dụng đối với số tiền chậm trả.",
+        "dependency": [
+            {
+                "Token": "Nếu",
+                "Head": 4,
+                "Relation": "dep"
+            },
+            {
+                "Token": "Bên",
+                "Head": 4,
+                "Relation": "sub"
+            },
+            {
+                "Token": "B",
+                "Head": 2,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "thanh toán",
+                "Head": 15,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "trễ",
+                "Head": 4,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "hạn",
+                "Head": 5,
+                "Relation": "dob"
+            },
+            {
+                "Token": ",",
+                "Head": 4,
+                "Relation": "punct"
+            },
+            {
+                "Token": "mức",
+                "Head": 14,
+                "Relation": "sub"
+            },
+            {
+                "Token": "phạt",
+                "Head": 8,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "1,5%",
+                "Head": 12,
+                "Relation": "det"
+            },
+            {
+                "Token": "mỗi",
+                "Head": 12,
+                "Relation": "det"
+            },
+            {
+                "Token": "ngày",
+                "Head": 9,
+                "Relation": "tmp"
+            },
+            {
+                "Token": "sẽ",
+                "Head": 15,
+                "Relation": "adv"
+            },
+            {
+                "Token": "được",
+                "Head": 15,
+                "Relation": "dep"
+            },
+            {
+                "Token": "áp dụng",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "đối với",
+                "Head": 15,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "số",
+                "Head": 16,
+                "Relation": "pob"
+            },
+            {
+                "Token": "tiền",
+                "Head": 17,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "chậm",
+                "Head": 17,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "trả",
+                "Head": 17,
+                "Relation": "nmod"
+            },
+            {
+                "Token": ".",
+                "Head": 4,
+                "Relation": "punct"
+            }
+        ]
+    },
+    {
+        "clause_id": 5,
+        "clause_text": "Bên B không được phép chuyển nhượng hợp đồng cho bên thứ ba, trừ khi có sự đồng ý bằng văn bản của Bên A.",
+        "dependency": [
+            {
+                "Token": "Bên",
+                "Head": 4,
+                "Relation": "sub"
+            },
+            {
+                "Token": "B",
+                "Head": 1,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "không",
+                "Head": 4,
+                "Relation": "adv"
+            },
+            {
+                "Token": "được",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "phép",
+                "Head": 4,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "chuyển nhượng",
+                "Head": 4,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "hợp đồng",
+                "Head": 6,
+                "Relation": "dob"
+            },
+            {
+                "Token": "cho",
+                "Head": 6,
+                "Relation": "iob"
+            },
+            {
+                "Token": "bên",
+                "Head": 8,
+                "Relation": "pob"
+            },
+            {
+                "Token": "thứ",
+                "Head": 9,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "ba",
+                "Head": 9,
+                "Relation": "det"
+            },
+            {
+                "Token": ",",
+                "Head": 17,
+                "Relation": "punct"
+            },
+            {
+                "Token": "trừ",
+                "Head": 6,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "khi",
+                "Head": 13,
+                "Relation": "tmp"
+            },
+            {
+                "Token": "có",
+                "Head": 14,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "sự",
+                "Head": 15,
+                "Relation": "dob"
+            },
+            {
+                "Token": "đồng ý",
+                "Head": 16,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "bằng",
+                "Head": 16,
+                "Relation": "mnr"
+            },
+            {
+                "Token": "văn bản",
+                "Head": 18,
+                "Relation": "pob"
+            },
+            {
+                "Token": "của",
+                "Head": 19,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "Bên",
+                "Head": 20,
+                "Relation": "pob"
+            },
+            {
+                "Token": "A.",
+                "Head": 21,
+                "Relation": "nmod"
+            }
+        ]
+    },
+    {
+        "clause_id": 6,
+        "clause_text": "Bên A có quyền đơn phương chấm dứt hợp đồng nếu Bên B sử dụng mặt bằng sai mục đích đã cam kết.",
+        "dependency": [
+            {
+                "Token": "Bên",
+                "Head": 3,
+                "Relation": "sub"
+            },
+            {
+                "Token": "A",
+                "Head": 1,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "có",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "quyền",
+                "Head": 3,
+                "Relation": "dob"
+            },
+            {
+                "Token": "đơn phương",
+                "Head": 4,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "chấm dứt",
+                "Head": 3,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "hợp đồng",
+                "Head": 6,
+                "Relation": "dob"
+            },
+            {
+                "Token": "nếu",
+                "Head": 3,
+                "Relation": "coord"
+            },
+            {
+                "Token": "Bên",
+                "Head": 6,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "B",
+                "Head": 9,
+                "Relation": "det"
+            },
+            {
+                "Token": "sử dụng",
+                "Head": 9,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "mặt bằng",
+                "Head": 11,
+                "Relation": "dob"
+            },
+            {
+                "Token": "sai",
+                "Head": 9,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "mục đích",
+                "Head": 13,
+                "Relation": "amod"
+            },
+            {
+                "Token": "đã",
+                "Head": 16,
+                "Relation": "adv"
+            },
+            {
+                "Token": "cam kết",
+                "Head": 14,
+                "Relation": "nmod"
+            },
+            {
+                "Token": ".",
+                "Head": 3,
+                "Relation": "punct"
+            }
+        ]
+    },
+    {
+        "clause_id": 7,
+        "clause_text": "Trong quá trình thực hiện hợp đồng, Bên B có trách nhiệm tự bảo quản tài sản cá nhân.",
+        "dependency": [
+            {
+                "Token": "Trong",
+                "Head": 8,
+                "Relation": "tmp"
+            },
+            {
+                "Token": "quá trình",
+                "Head": 1,
+                "Relation": "pob"
+            },
+            {
+                "Token": "thực hiện",
+                "Head": 2,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "hợp đồng",
+                "Head": 3,
+                "Relation": "dob"
+            },
+            {
+                "Token": ",",
+                "Head": 8,
+                "Relation": "punct"
+            },
+            {
+                "Token": "Bên",
+                "Head": 8,
+                "Relation": "sub"
+            },
+            {
+                "Token": "B",
+                "Head": 6,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "có",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "trách nhiệm",
+                "Head": 8,
+                "Relation": "dob"
+            },
+            {
+                "Token": "tự",
+                "Head": 11,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "bảo quản",
+                "Head": 9,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "tài sản",
+                "Head": 11,
+                "Relation": "dob"
+            },
+            {
+                "Token": "cá nhân",
+                "Head": 12,
+                "Relation": "nmod"
+            },
+            {
+                "Token": ".",
+                "Head": 8,
+                "Relation": "punct"
+            }
+        ]
+    },
+    {
+        "clause_id": 8,
+        "clause_text": "Bên A sẽ không chịu trách nhiệm đối với bất kỳ mất mát nào.",
+        "dependency": [
+            {
+                "Token": "Bên",
+                "Head": 5,
+                "Relation": "sub"
+            },
+            {
+                "Token": "A",
+                "Head": 1,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "sẽ",
+                "Head": 5,
+                "Relation": "adv"
+            },
+            {
+                "Token": "không",
+                "Head": 5,
+                "Relation": "adv"
+            },
+            {
+                "Token": "chịu",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "trách nhiệm",
+                "Head": 5,
+                "Relation": "dob"
+            },
+            {
+                "Token": "đối với",
+                "Head": 6,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "bất kỳ",
+                "Head": 9,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "mất mát",
+                "Head": 7,
+                "Relation": "pob"
+            },
+            {
+                "Token": "nào",
+                "Head": 9,
+                "Relation": "nmod"
+            },
+            {
+                "Token": ".",
+                "Head": 5,
+                "Relation": "punct"
+            }
+        ]
+    },
+    {
+        "clause_id": 9,
+        "clause_text": "Trong trường hợp xảy ra sự kiện bất khả kháng như thiên tai hoặc dịch bệnh, hai bên sẽ cùng nhau thương lượng để tìm hướng giải quyết.",
+        "dependency": [
+            {
+                "Token": "Trong",
+                "Head": 15,
+                "Relation": "tmp"
+            },
+            {
+                "Token": "trường hợp",
+                "Head": 1,
+                "Relation": "pob"
+            },
+            {
+                "Token": "xảy",
+                "Head": 2,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "ra",
+                "Head": 3,
+                "Relation": "adv"
+            },
+            {
+                "Token": "sự kiện",
+                "Head": 3,
+                "Relation": "dob"
+            },
+            {
+                "Token": "bất khả kháng",
+                "Head": 5,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "như",
+                "Head": 3,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "thiên tai",
+                "Head": 3,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "hoặc",
+                "Head": 8,
+                "Relation": "coord"
+            },
+            {
+                "Token": "dịch bệnh",
+                "Head": 9,
+                "Relation": "conj"
+            },
+            {
+                "Token": ",",
+                "Head": 15,
+                "Relation": "punct"
+            },
+            {
+                "Token": "hai",
+                "Head": 13,
+                "Relation": "det"
+            },
+            {
+                "Token": "bên",
+                "Head": 17,
+                "Relation": "sub"
+            },
+            {
+                "Token": "sẽ",
+                "Head": 17,
+                "Relation": "amod"
+            },
+            {
+                "Token": "cùng",
+                "Head": 17,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "nhau",
+                "Head": 15,
+                "Relation": "amod"
+            },
+            {
+                "Token": "thương lượng",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "để",
+                "Head": 15,
+                "Relation": "prp"
+            },
+            {
+                "Token": "tìm",
+                "Head": 18,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "hướng",
+                "Head": 19,
+                "Relation": "dob"
+            },
+            {
+                "Token": "giải quyết",
+                "Head": 20,
+                "Relation": "nmod"
+            },
+            {
+                "Token": ".",
+                "Head": 15,
+                "Relation": "punct"
+            }
+        ]
+    },
+    {
+        "clause_id": 10,
+        "clause_text": "Nếu không đạt được thỏa thuận, sự việc sẽ được đưa ra Tòa án có thẩm quyền để phân xử.",
+        "dependency": [
+            {
+                "Token": "Nếu",
+                "Head": 3,
+                "Relation": "dep"
+            },
+            {
+                "Token": "không",
+                "Head": 3,
+                "Relation": "adv"
+            },
+            {
+                "Token": "đạt",
+                "Head": 10,
+                "Relation": "vmod"
+            },
+            {
+                "Token": "được",
+                "Head": 3,
+                "Relation": "adv"
+            },
+            {
+                "Token": "thoả thuận",
+                "Head": 3,
+                "Relation": "vmod"
+            },
+            {
+                "Token": ",",
+                "Head": 3,
+                "Relation": "punct"
+            },
+            {
+                "Token": "sự việc",
+                "Head": 9,
+                "Relation": "sub"
+            },
+            {
+                "Token": "sẽ",
+                "Head": 10,
+                "Relation": "adv"
+            },
+            {
+                "Token": "được",
+                "Head": 10,
+                "Relation": "dep"
+            },
+            {
+                "Token": "đưa",
+                "Head": 0,
+                "Relation": "root"
+            },
+            {
+                "Token": "ra",
+                "Head": 10,
+                "Relation": "adv"
+            },
+            {
+                "Token": "Toà án",
+                "Head": 10,
+                "Relation": "dob"
+            },
+            {
+                "Token": "có",
+                "Head": 12,
+                "Relation": "nmod"
+            },
+            {
+                "Token": "thẩm quyền",
+                "Head": 13,
+                "Relation": "dob"
+            },
+            {
+                "Token": "để",
+                "Head": 10,
+                "Relation": "prp"
+            },
+            {
+                "Token": "phân xử",
+                "Head": 15,
+                "Relation": "vmod"
+            },
+            {
+                "Token": ".",
+                "Head": 3,
+                "Relation": "punct"
+            }
+        ]
+    }
+]
