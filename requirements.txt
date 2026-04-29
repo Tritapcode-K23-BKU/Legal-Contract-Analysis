@@ -1,0 +1,38 @@
+# ==============================================================
+# LEGAL CONTRACT ANALYSIS - TỔNG HỢP THƯ VIỆN CÀI ĐẶT
+# Lệnh cài đặt nhanh: pip install -r requirements.txt
+# ==============================================================
+
+# ── Assignment 1: Legal Contract Parser ───────────────────────
+# Yêu cầu: Java 8+ phải được cài và có trong biến môi trường PATH
+# Lần chạy đầu tiên sẽ tự động tải model VnCoreNLP (~200MB)
+py-vncorenlp
+
+# ── Assignment 2: NER + SRL + Intent Classification ───────────
+# Bắt buộc cho Machine Learning cơ bản
+scikit-learn
+numpy
+
+# Tuỳ chọn: tăng độ chính xác NER (nếu dùng spacy model)
+spacy
+
+# Tuỳ chọn: fine-tune PhoBERT (task23_intent.py)
+# Cần GPU (khuyến nghị RTX 3060 trở lên), dùng với flag --train-phobert
+torch
+transformers
+datasets
+evaluate
+accelerate
+
+# ── Assignment 3: LexRAG Backend (FastAPI + RAG) ──────────────
+# Yêu cầu: Cài đặt và khởi chạy Ollama trước (https://ollama.com)
+# Lệnh tải LLM: ollama pull qwen2.5:7b
+fastapi
+uvicorn
+pydantic
+requests
+sentence-transformers
+
+# Database Vector (Chọn 1 trong 2 tùy cấu hình máy)
+faiss-cpu
+# faiss-gpu  # Bỏ comment dòng này và comment dòng faiss-cpu nếu máy có GPU
