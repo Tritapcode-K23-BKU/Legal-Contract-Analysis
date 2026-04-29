@@ -1,0 +1,15 @@
+# Bỏ qua thư mục chứa model PhoBERT nặng
+models/
+assignment2/models/
+
+# Bỏ qua thư viện VnCoreNLP (file .jar nặng)
+assigment1/src/vncorenlp/
+vncorenlp/
+
+# Bỏ qua thư viện Python ảo và rác hệ thống
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.DS_Store
