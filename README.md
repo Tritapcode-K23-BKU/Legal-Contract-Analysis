@@ -1,3 +1,4 @@
+#Clone repo về máy: https://github.com/Tritapcode-K23-BKU/Legal-Contract-Analysis.git
 #  Legal Contract Analysis — NLP Assignments
 
 Bộ 3 bài tập lớn phân tích hợp đồng pháp lý tiếng Việt sử dụng các kỹ thuật NLP.
