@@ -54,12 +54,10 @@ pip install -r requirements.txt
 **Chức năng:** Tách mệnh đề, gán nhãn IOB (Noun Chunking), phân tích cú pháp phụ thuộc (Dependency Parsing) cho văn bản hợp đồng tiếng Việt.
 
 ### Cài đặt thư viện
-
-```bash
-pip install py-vncorenlp
-```
-
-> **Lưu ý:** Lần chạy đầu tiên, chương trình sẽ tự động tải model VnCoreNLP (~200MB) vào thư mục `./vncorenlp`. Cần có kết nối internet và Java 8+.
+Vì mô hình PhoBERT và VnCoreNLP vượt quá giới hạn của GitHub, nhóm đã lưu trữ trên Google Drive. 
+Thầy/Cô vui lòng thực hiện các bước sau để chạy code:
+1. Tải file models.zip tại link sau: https://drive.google.com/file/d/1vXrGP39i82RJrKfeH7tx9BkYhEQCdCQk/view?usp=sharing
+2. Đặt thư mục `vncorenlp` và `models` vào trong `assigment1/src/`.
 
 ### Chạy chương trình
 
