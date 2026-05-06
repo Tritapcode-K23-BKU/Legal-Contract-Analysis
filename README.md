@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ### Cài đặt thư viện
 Vì mô hình PhoBERT và VnCoreNLP vượt quá giới hạn của GitHub, nhóm đã lưu trữ trên Google Drive. 
 Thầy/Cô vui lòng thực hiện các bước sau để chạy code:
-1. Tải file models.zip tại link sau: [Link Google Drive của bạn]
+1. Tải file models.zip tại link sau: https://drive.google.com/file/d/1vXrGP39i82RJrKfeH7tx9BkYhEQCdCQk/view?usp=sharing
 2. Giải nén và đặt thư mục `models` ngang hàng với `assignment2/src`.
 3. Đặt thư mục `vncorenlp` vào trong `assigment1/src/`.
 
